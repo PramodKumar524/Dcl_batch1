@@ -1,0 +1,60 @@
+body {
+    background: url("C:/Users/pramo/Downloads/stock-photo-autumn-forest-path-orange-color-tree-red-brown-maple-leaves-in-fall-city-park-nature-scene-in-2198009967.jpg") 
+        no-repeat center center/cover;
+}
+
+/* Login Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px; /* Added px */
+    align-items: center;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5); /* Fixed invalid box-shadow */
+    border-radius: 25px;
+}
+
+.form h1 {
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
+}
+
+.box {
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px 0 0 rgba(0, 0, 0, 0.5); /* Corrected shadow syntax */
+    color: white;
+    font-size: 1rem;
+}
+
+#submit {
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%; /* Changed from 50px to auto for better usability */
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+submit:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.7em;
+}
