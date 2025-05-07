@@ -2,7 +2,7 @@
 
 /* Login Form */
 body{
-    background: image("stock-photo-autumn-forest-path-orange-color-tree-red-brown-maple-leaves-in-fall-city-park-nature-scene-in-2198009967");
+    background:image-set("stock-photo-autumn-forest-path-orange-color-tree-red-brown-maple-leaves-in-fall-city-park-nature-scene-in-2198009967.jpg");
 }
 .form {
     display: flex;
