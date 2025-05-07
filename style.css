@@ -40,13 +40,8 @@ body{
     padding: 10px 20px;
     margin-top: 50px;
     width: 50%; /* Changed from 50px to auto for better usability */
-<<<<<<< HEAD
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: inset -3px -3px rgba(206, 191, 191, 0.5);
-=======
     background-color: rgba(219, 204, 204, 0.5);
     box-shadow: inset -3px -3px rgba(151, 178, 17, 0.5);
->>>>>>> ab4b13b1f01302e77acf3f6635fc87fd17ce9533
 
     border: none;
     outline: none;
@@ -60,10 +55,6 @@ submit:hover{
 }
 
 ::placeholder{
-<<<<<<< HEAD
     
-=======
-    color: rgb(162, 34, 132);
->>>>>>> 75e8da15655dd129132372b871a69cb82e7ec0a5
     opacity: 0.7em;
 }
