@@ -51,10 +51,10 @@ body {
 submit:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
-  color: rgb(202, 54, 54);
+  color: white;
 }
 
 ::placeholder {
-  color: rgb(162, 34, 132);
+  color: white;
   opacity: 0.7em;
 }
